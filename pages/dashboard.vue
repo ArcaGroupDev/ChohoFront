@@ -14,16 +14,16 @@
     </div>
     <div v-if="this.carga == false">
       <h2 id="titulo" class="d-flex justify-center">Cargando información, por favor espere.</h2>
-      <loading id="loading" v-model: active
+      <!-- <loading id="loading" v-model: active
         :is-full-page="false"
         :loader="bars"
-        />  
+        />   -->
     </div>
   </div>
 </template>
 <script>
 import API from '@/services/API.js'
-import Loading from 'vue-loading-overlay';
+// import Loading from 'vue-loading-overlay';
 //import 'vue-loading-overlay/dist/css/index.css';
 export default {
   name: 'Dashboard',
