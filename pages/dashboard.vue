@@ -24,7 +24,7 @@
 <script>
 import API from '@/services/API.js'
 import Loading from 'vue-loading-overlay';
-import 'vue-loading-overlay/dist/css/index.css';
+//import 'vue-loading-overlay/dist/css/index.css';
 export default {
   name: 'Dashboard',
   data() {
