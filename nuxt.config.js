@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+//import { projects } from "./utils/projectsData";
 const backendUrl = process.env.BACKEND_URL || "http://localhost:8081/api" //Local                                          
 //const backendUrl = process.env.BACKEND_URL || "https://507350081719.us-west-2.amazonaws.com"
 //const backendUrl = process.env.BACKEND_URL || "http://dev-chohowms.us-west-2.elasticbeanstalk.com/" //AWS
@@ -115,7 +115,19 @@ export default {
   build: {},
   generate: {
     return: [
-      '/login',
+      '/',
+      'pages/index.vue',
     ]
   }
+  // generate: {
+  //   async routes() {
+  //     const paths = [];
+
+  //     projects.forEach(project => {
+  //       paths.push(`/project/${project.slug}`);
+  //     });
+
+  //     return paths;
+  //   }
+  // }
 }
