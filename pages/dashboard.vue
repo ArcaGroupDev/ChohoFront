@@ -34,7 +34,7 @@ export default {
     }
   },
   components: {
-    Loading
+    //Loading
   },
   created() {
     this.getDataGeneral()
