@@ -31,7 +31,7 @@ export default {
     return {
       carga : false,
       bars : "dots",
-    }
+    } 
   },
   components: {
     //Loading
