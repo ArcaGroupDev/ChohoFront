@@ -240,6 +240,7 @@ export default {
     this.$store.dispatch("updateProductsCatalogo", {
       shopProducts: this.$session.get("shopping_cart"),
     });
+    /*Comentario*/ 
     this.pedido = this.$session.get("shopping_cart");
     console.log(this.pedido);
     if (this.pedido != undefined) {
