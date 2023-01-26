@@ -49,10 +49,7 @@
           >
             Login
           </v-btn>
-          <btn
-          @click="irHtml()">
-            html
-          </btn>
+
         </v-form>
       </v-card>
     </v-flex>
@@ -115,9 +112,6 @@ export default {
           })
       }
     },
-    userLogin(){
-      window.location.href = "./index.html"
-    }
   },
 }
 </script>
