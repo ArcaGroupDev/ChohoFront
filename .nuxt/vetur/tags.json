@@ -1,0 +1,44 @@
+{
+  "AddProducts": {
+    "description": "Auto imported from components/AddProducts.vue"
+  },
+  "ContactTable": {
+    "description": "Auto imported from components/ContactTable.vue"
+  },
+  "DetalleOrden": {
+    "description": "Auto imported from components/DetalleOrden.vue"
+  },
+  "DialogForm": {
+    "description": "Auto imported from components/DialogForm.vue"
+  },
+  "DirectionsTable": {
+    "description": "Auto imported from components/DirectionsTable.vue"
+  },
+  "Documents": {
+    "description": "Auto imported from components/Documents.vue"
+  },
+  "Gmaps": {
+    "description": "Auto imported from components/Gmaps.vue"
+  },
+  "NumberField": {
+    "description": "Auto imported from components/NumberField.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "SelectField": {
+    "description": "Auto imported from components/SelectField.vue"
+  },
+  "ShoppingCart": {
+    "description": "Auto imported from components/ShoppingCart.vue"
+  },
+  "TextField": {
+    "description": "Auto imported from components/TextField.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
