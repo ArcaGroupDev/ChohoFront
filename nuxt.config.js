@@ -114,12 +114,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  generate: {
-    return: [
-      '/',
-      'pages/index.vue',
-    ]
-  }
+  // generate: {
+  //   return: [
+  //     '/',
+  //     'pages/index.vue',
+  //   ]
+  // }
   // generate: {
   //   async routes() {
   //     const paths = [];
