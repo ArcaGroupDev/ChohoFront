@@ -1,6 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 //import { projects } from "./utils/projectsData";
-const backendUrl = process.env.BACKEND_URL || "http://localhost:8081/api" //Local                                          
+//const backendUrl = process.env.BACKEND_URL || "http://localhost:8081/api" //Local
+const backendUrl = process.env.BACKEND_URL || "crmcatalogobackend.azurewebsites.net"                                          
 //const backendUrl = process.env.BACKEND_URL || "https://507350081719.us-west-2.amazonaws.com"
 //const backendUrl = process.env.BACKEND_URL || "http://dev-chohowms.us-west-2.elasticbeanstalk.com/" //AWS
 //const backendUrl = process.env.BACKEND_URL || "http://dev-chohow/"
