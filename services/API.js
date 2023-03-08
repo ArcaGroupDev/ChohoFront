@@ -135,4 +135,7 @@ export default {
     getAllPedidos(){
         return api.get('/ordenes/getPed');
     },
+    updateProductSigma(){
+        return api.get('/producto/updateBySigma')
+    }
 }

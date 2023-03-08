@@ -53,6 +53,13 @@
           >
             Limpiar
           </v-btn>
+          <v-btn
+            color="green"
+            dark
+            class="ml-1 text-capitalize"
+            @click="actualizarDeSigma()">
+             update
+          </v-btn>
         </v-col>
       </v-row>
       <v-row class="d-flex">
@@ -496,6 +503,14 @@ export default {
         data: this.$session.get("shopping_cart"),
       });
     },
+    actualizarDeSigma(){
+      console.log("Hola desde el boton updated");
+      API.updateProductSigma().then((response) => {
+        // console.log(response.data.data);
+        // console.log(response.data.data.result.length);
+        console.log(response);
+      })
+    }
   },
 };
 </script>
